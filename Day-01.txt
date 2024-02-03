@@ -1,0 +1,26 @@
+01.Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+    HTTP/1.1 handles web requests and responses one at a time. It's like asking for each piece of a website separately – the text, the images, and other elements. This can make loading websites take longer, especially when there are many things to fetch.
+
+    HTTP/2 is allows your web browser to request and receive multiple elements of a website at the same time. This makes everything load much faster because you don't have to wait for one thing to finish before asking for the next.
+
+    Key Differences:
+
+01.Multiplexing:
+    HTTP/1.1: Processes requests and responses one at a time.
+
+    HTTP/2: Handles multiple requests and responses simultaneously, like our magic library card.
+
+02.Header Compression:
+    HTTP/1.1: Sends a lot of repeated information, making requests and responses larger.
+
+    HTTP/2: Compresses headers, reducing the amount of data that needs to be sent back and forth.
+
+03.Prioritization:
+    03.HTTP/1.1: Doesn't have a built-in way to prioritize which elements of a webpage are more important.
+
+    HTTP/2: Allows for prioritizing content, ensuring the essential stuff loads first.
+
+04.Binary Protocol:
+    HTTP/1.1: Uses plain text for communication.
+
+    HTTP/2: Uses binary code, which computers find easier and faster to understand.
