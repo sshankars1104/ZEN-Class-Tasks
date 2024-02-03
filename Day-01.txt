@@ -1,4 +1,5 @@
-01.Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+QNO.01.Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+
     HTTP/1.1 handles web requests and responses one at a time. It's like asking for each piece of a website separately – the text, the images, and other elements. This can make loading websites take longer, especially when there are many things to fetch.
 
     HTTP/2 is allows your web browser to request and receive multiple elements of a website at the same time. This makes everything load much faster because you don't have to wait for one thing to finish before asking for the next.
@@ -24,3 +25,31 @@
     HTTP/1.1: Uses plain text for communication.
 
     HTTP/2: Uses binary code, which computers find easier and faster to understand.
+
+
+
+
+
+
+
+
+QNO.02.Write a blog about objects and its internal representation in Javascript ?
+
+    An object is a collection of properties, where each property is a key-value pair.
+        There are different ways to create an object in JavaScript. The simplest way is to use the object literal notation as follows:
+
+                    let person = {name: 'John', 
+                                   age: 30};
+
+1. Object Properties and Values:
+    Properties:
+        Objects in JavaScript are essentially collections of key-value pairs. Each key is called a property, and it's like the name tag on a box.
+    Values:
+        The values associated with each property can be of various types – numbers, strings, other objects, functions, and more.
+
+2. Memory Allocation:
+    Memory Space:
+        When you create an object, JavaScript allocates memory space for it. Think of it as reserving a designated area in the computer's memory to store your object.
+    Slots for Properties:
+
+        Within this memory space, each property and its corresponding value get assigned specific slots. It's like having compartments for each item in a storage room.
