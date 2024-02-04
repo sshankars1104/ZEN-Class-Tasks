@@ -46,4 +46,4 @@ syntax: document.propertyname;				    syntax: window.propertyname;
 
 example:  document.title :				        example:window.innerHeight :
 will return the title of the document			will return the height of the content area of 
-                                                the browser
+                                                		the browser
