@@ -1,0 +1,49 @@
+							DAY-02
+
+
+Qno-01 Write a Blog on the different between document and windows objects?
+
+Document Object:
+	The document object represents a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
+
+
+Window Object
+	The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created.
+
+Difference between document and window:
+
+It represents any HTML document or web           It represents a browser window or frame that displays
+page that is loaded in the browser.               the contents of the webpage.
+
+
+It is loaded inside the window.                   It is loaded in the browser.
+
+
+It is the object of window property.			It is the object of the browser.
+
+
+All the tags, elements with attributes			Global objects, functions, and variables of JavaScript
+in HTML are part of the document.			        are members of the window object.
+
+
+We can access the document from a window		We can access the window from the window only.
+using the window. document				         i.e. window.window
+
+
+The document is part of BOM 
+(browser object model) and 				        The window is part of BOM, not DOM.
+dom (Document object model)
+
+
+Properties of document objects such as	
+title, body, cookies, etc can also be 			Properties of the window object cannot be accessed by
+accessed by a window like this 				    the document object.
+window. document.title	
+
+
+syntax: document.propertyname;				    syntax: window.propertyname;
+
+
+example:  document.title :				        example:window.innerHeight :
+will return the title of the document			will return the height of the content area of 
+                                                the browser
