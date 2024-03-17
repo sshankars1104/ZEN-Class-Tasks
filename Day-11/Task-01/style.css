@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #cad2c5;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background: #2f3d46;
+  color: #fffefe;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 20px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mainContent {
+  display: flex;
+}
+
+.rectangle {
+  width: 300px;
+  height: 410px;
+  background-color: #353535;
+  margin: 70px 100px;
+  border-radius: 20px;
+}
+
+.search {
+  width: 600px;
+  height: 40px;
+  background-color: #353535;
+  color: #8d8d8d;
+  border-radius: 10px;
+  margin: 70px auto;
+}
+
+.search h6 {
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.threeBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.box1 {
+  width: 200px;
+  height: 150px;
+  background-color: #353535;
+  border-radius: 10px;
+}
+
+.box2 {
+  width: 200px;
+  height: 150px;
+  background-color: #353535;
+  margin: 0 50px;
+  border-radius: 10px;
+}
+
+.box3 {
+  width: 200px;
+  height: 150px;
+  background-color: #353535;
+  border-radius: 10px;
+}
+
+.footer {
+  width: 800px;
+  height: 100px;
+  background-color: #353535;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .mainContent {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+  }
+
+  .rectangle {
+    margin: 20px auto;
+  }
+
+  .search {
+    margin-bottom: 20px;
+    width: 60%;
+  }
+
+  .threeBox {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .footer {
+    margin: 20px auto;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .mainContent {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+  }
+
+  .rectangle {
+    margin: 20px auto;
+  }
+
+  .search {
+    margin-bottom: 20px;
+    width: 60%;
+  }
+
+  .threeBox {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 200px;
+    /* margin: 20px; */
+  }
+
+  .footer {
+    margin: 20px auto;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .mainContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+  }
+
+  .rectangle {
+    margin: 20px auto;
+  }
+
+  .search {
+    margin-bottom: 20px;
+    width: 60%;
+  }
+
+  .threeBox {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .footer {
+    margin: 20px auto;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .mainContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+  }
+
+  .rectangle {
+    margin: 20px auto;
+  }
+
+  .search {
+    margin-bottom: 20px;
+    width: 60%;
+  }
+
+  .threeBox {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    margin: 20px auto;
+    width: 90%;
+  }
+}
