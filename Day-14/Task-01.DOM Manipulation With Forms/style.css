@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c5abab;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+#myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px 100px;
+}
+.myForm {
+  margin: 10px 10px 10px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+input,
+textarea,
+select {
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border-color: bisque;
+}
+input[type="text"]:focus {
+  background-color: lightblue;
+}
+textarea:focus {
+  background-color: lightblue;
+}
+select:focus {
+  background-color: lightblue;
+}
+
+button {
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+form {
+  margin-bottom: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 200px;
+}
+
+th,
+td {
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th,
+tfoot {
+  background-color: #6e5555;
+  border: 1px solid #ddd;
+}

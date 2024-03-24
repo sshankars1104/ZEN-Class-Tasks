@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation With Forms</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h1>DOM Manipulation With Forms</h1>
+    <form id="myForm">
+        <div class="myForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required />
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required />
+        </div>
+
+        <div class="myForm">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="myForm">
+            <label for="food">Choice of Food:</label>
+            <input type="text" id="food" name="food" required /><br />
+        </div>
+
+        <div class="myForm">
+            <label for="address">Address:</label><br />
+            <textarea id="address" name="address" rows="5" cols="60"></textarea>
+        </div>
+
+        <div class="myForm">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required />
+            <label for="pincode">Pincode:</label>
+            <input type="text" id="pincode" name="pincode" required />
+        </div>
+
+        <div class="myForm">
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required />
+        </div>
+
+        <div class="myForm">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Pincode</th>
+                <th>Gender</th>
+                <th>Choice of Food</th>
+                <th>State</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>-</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
